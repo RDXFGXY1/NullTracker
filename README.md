@@ -1,0 +1,2 @@
+# NullTracker
+Bot Log
