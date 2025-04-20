@@ -1,5 +1,29 @@
 # Null-Tracker
 
+<p align="center">
+  <img src="https://yourdomain.com/null-tracker-logo.png" width="120" alt="Null-Tracker Logo" />
+</p>
+
+<h1 align="center">Null-Tracker</h1>
+
+<p align="center">
+  A modular, real-time logging bot for Discord servers. Fully extensible and built for serious moderation.
+</p>
+
+<p align="center">
+  <a href="https://github.com/yourusername/null-tracker/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/null-tracker/python-app.yml?label=build&logo=github&style=flat" alt="Build Status" />
+  </a>
+  <a href="https://github.com/yourusername/null-tracker/blob/main/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/yourusername/null-tracker?style=flat" alt="License: MIT" />
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python Version" />
+  </a>
+  <img src="https://img.shields.io/github/last-commit/yourusername/null-tracker?style=flat" alt="Last Commit" />
+</p>
+
+
 **Null-Tracker** is an advanced logging bot for Discord servers, designed to monitor and record server activities in real-time. It is modular, configurable, and easy to integrate into any Discord server that values organization, security, and insight.
 
 ## Features
