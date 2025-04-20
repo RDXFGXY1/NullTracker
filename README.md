@@ -50,7 +50,7 @@ null_tracker/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/null-tracker.git
+   git clone https://github.com/RDXFGXY1/null-tracker.git
    cd null-tracker/log_bot
    ```
 
@@ -72,7 +72,7 @@ null_tracker/
 
 - Python 3.10 or later
 - `discord.py` (or its maintained fork like `py-cord`)
-- A bot token and a Discord application
+- A bot token and a Discord application 
 - Basic understanding of Discord's permissions and events
 
 ## License
@@ -85,5 +85,5 @@ Feel free to fork the repository and submit pull requests. Suggestions, feature 
 
 ---
 
-If you’re using this bot in production, consider joining the [Null-Studio Discord Server](https://discord.gg/YOUR_INVITE) for support and updates.
+If you’re using this bot in production, consider joining the [Null-Studio Discord Server](https://discord.gg/aFvUxKejw4) for support and updates.
 ```
