@@ -1,8 +1,4 @@
-# Null-Tracker
 
-<p align="center">
-  <img src="https://yourdomain.com/null-tracker-logo.png" width="120" alt="Null-Tracker Logo" />
-</p>
 
 <h1 align="center">Null-Tracker</h1>
 
