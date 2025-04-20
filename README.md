@@ -1,5 +1,4 @@
 
-```md
 # Null-Tracker
 
 Null-Tracker is a powerful and modular Discord bot designed to monitor, log, and manage various server activities in real-time. It is built with scalability and customization in mind, making it ideal for both small communities and large servers.
