@@ -1,101 +1,89 @@
-
 # Null-Tracker
 
-Null-Tracker is a powerful and modular Discord bot designed to monitor, log, and manage various server activities in real-time. It is built with scalability and customization in mind, making it ideal for both small communities and large servers.
+**Null-Tracker** is an advanced logging bot for Discord servers, designed to monitor and record server activities in real-time. It is modular, configurable, and easy to integrate into any Discord server that values organization, security, and insight.
 
-> 📅 Version: 2.0  
-> 📌 Author: [Null-Studio](https://discord.gg/nullstudio)  
-> 🧠 Language: Python 3.12  
-> 📁 Modular Structure | 💾 Persistent Logs | 💼 Premium Log Support
+## Features
 
----
+Null-Tracker includes a comprehensive set of logging capabilities across various domains:
 
-## 🔍 Features
+### ✅ Member Logs
+- Track when members join, leave, are banned, unbanned, kicked, or updated.
+- Fully modularized via `members_log` Cogs.
 
-### ✅ Member Activity Logging
-- Member joins, leaves, bans, unbans, updates, and kicks.
-- Stored in `cogs/members_log/`.
+### ✅ Role Logs
+- Logs role creations, deletions, and changes.
 
-### 🎙️ Voice Channel Logging
-- Tracks user connections, disconnections, movements, and status updates in voice channels.
-- Stored in `cogs/voice_logs/`.
+### ✅ Voice Logs
+- Track voice channel events: connects, disconnects, moves, and state updates.
 
-### 🛠️ Role Management Logging
-- Monitors role creations, deletions, and edits.
-- Stored in `cogs/role_logs/`.
+### ✅ Channel Logs
+- Monitor creation, deletion, renaming, permission updates, and slowmode changes.
 
-### 🔊 Channel Logs
-- Tracks changes in channel lifecycle, slowmode, and permissions.
-- Stored in `cogs/channels_log/`.
+### ✅ Setup System
+- Preconfigured setup group for quickly initializing logging channels, roles, emojis, integrations, and permissions.
 
-### 🚀 Server Setup Tools
-- Powerful setup commands for roles, emojis, permissions, integration, and more.
-- Stored in `cogs/z_setup/`.
+### ✅ Premium Logs
+- Includes support for extended logging and premium feature toggles.
 
-### 💎 Premium Logging
-- Advanced logging tools for premium users.
-- Found in `PremiumLogs.py`.
+## Folder Structure
 
----
-
-## ⚙️ Configuration
-
-All configuration files are stored under the `config/` directory:
-- `main_config.json`: Main settings for the bot.
-- `config.json`: Additional config entries.
-- `.env`: Environment variables for tokens and secrets.
-
----
-
-## 🧩 Installation
-
-> Requires Python 3.12+
-
-1. Clone the repo:
-```bash
-git clone https://github.com/YOUR_USERNAME/null-tracker.git
-cd null-tracker/log_bot
+```
+null_tracker/
+├── log_bot/
+│   ├── cogs/
+│   │   ├── members_log/
+│   │   ├── role_logs/
+│   │   ├── voice_logs/
+│   │   ├── channels_log/
+│   │   └── z_setup/
+│   ├── config/
+│   │   ├── main_config.json
+│   │   └── config.json
+│   ├── .env
+│   ├── LICENSE.txt
+│   ├── setup.py
+│   └── requirements.txt
+└── ...
 ```
 
-2. Set up the virtual environment:
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
+## Installation
 
-3. Install requirements:
-```bash
-pip install -r requirements.txt
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/null-tracker.git
+   cd null-tracker/log_bot
+   ```
 
-4. Add your `.env` file and configure your `main_config.json`.
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-5. Run the bot:
-```bash
-python3 setup.py
-```
+3. Configure your environment:
+   - Create a `.env` file based on the provided template.
+   - Edit `config/config.json` and `config/main_config.json` to fit your server's needs.
 
----
+4. Run the bot:
+   ```bash
+   python setup.py
+   ```
 
-## 📜 License
+## Requirements
+
+- Python 3.10 or later
+- `discord.py` (or its maintained fork like `py-cord`)
+- A bot token and a Discord application
+- Basic understanding of Discord's permissions and events
+
+## License
 
 This project is licensed under the terms of the `LICENSE.txt` file.
 
----
+## Contribution
 
-## 🤝 Contributing
-
-Contributions, suggestions, and issues are welcome! Feel free to fork and submit pull requests.
+Feel free to fork the repository and submit pull requests. Suggestions, feature requests, and bug reports are always welcome.
 
 ---
 
-## 📞 Support
-
-For support or business inquiries, join our [Discord server](https://discord.gg/nullstudio) or contact the team at `Null-Studio`.
-
----
-
-> Built with ❤️ by Null-Studio
+If you’re using this bot in production, consider joining the [Null-Studio Discord Server](https://discord.gg/YOUR_INVITE) for support and updates.
 ```
-
-إذا بغيت أضيف صورة، شارة GitHub، رابط مباشر للـ invite، أو توثيق للأوامر، قول لي ونكمل عليه.
