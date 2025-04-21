@@ -7,16 +7,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/null-tracker/actions">
+  <a href="https://github.com/RDXFGXY1/null-tracker/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/yourusername/null-tracker/python-app.yml?label=build&logo=github&style=flat" alt="Build Status" />
   </a>
-  <a href="https://github.com/yourusername/null-tracker/blob/main/LICENSE.txt">
+  <a href="https://github.com/RDXFGXY1/null-tracker/blob/main/LICENSE.txt">
     <img src="https://img.shields.io/github/license/yourusername/null-tracker?style=flat" alt="License: MIT" />
   </a>
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python Version" />
   </a>
-  <img src="https://img.shields.io/github/last-commit/yourusername/null-tracker?style=flat" alt="Last Commit" />
+  <img src="https://img.shields.io/github/last-commit/RDXFGXY1/null-tracker?style=flat" alt="Last Commit" />
 </p>
 
 
